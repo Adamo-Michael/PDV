@@ -14,5 +14,8 @@
 
     verona
 
-    escorte
+    
+        escorte
+
+    teclado
 End Class

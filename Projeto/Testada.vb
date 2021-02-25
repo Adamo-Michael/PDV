@@ -19,4 +19,6 @@
 
     mouse preto
 
+
+    teclado
 End Class

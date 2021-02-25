@@ -2,4 +2,6 @@
 
     palavra
 
+    golf tsi
+
 End Class

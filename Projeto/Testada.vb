@@ -8,4 +8,6 @@
 
     celta preto
 
+    omega
+
 End Class

@@ -10,4 +10,6 @@
 
     omega
 
+    verona
+    
 End Class

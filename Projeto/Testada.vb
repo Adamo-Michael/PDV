@@ -6,6 +6,6 @@
 
     carro
 
-    celta preto
+    celta branco
 
 End Class

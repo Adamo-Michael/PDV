@@ -16,9 +16,7 @@
 
     escorte
 
-
     mouse preto
-
 
     teclado
 End Class

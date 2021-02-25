@@ -6,4 +6,6 @@
 
     vectra 2000
 
+    polo sedan
+
 End Class

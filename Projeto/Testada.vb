@@ -6,7 +6,7 @@
 
     carro
 
-    celta preto
+    celta branco
 
     omega
 

@@ -28,6 +28,7 @@ Partial Class FormClienteAdicionar
         Me.txtNome = New System.Windows.Forms.TextBox()
         Me.txtEndereco = New System.Windows.Forms.TextBox()
         Me.btnSalvar = New System.Windows.Forms.Button()
+        Me.btnLimpar = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -78,11 +79,21 @@ Partial Class FormClienteAdicionar
         Me.btnSalvar.TextAlign = System.Drawing.ContentAlignment.MiddleRight
         Me.btnSalvar.UseVisualStyleBackColor = True
         '
+        'btnLimpar
+        '
+        Me.btnLimpar.Location = New System.Drawing.Point(397, 104)
+        Me.btnLimpar.Name = "btnLimpar"
+        Me.btnLimpar.Size = New System.Drawing.Size(75, 23)
+        Me.btnLimpar.TabIndex = 3
+        Me.btnLimpar.Text = "Limpar"
+        Me.btnLimpar.UseVisualStyleBackColor = True
+        '
         'FormClienteAdicionar
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(484, 261)
+        Me.Controls.Add(Me.btnLimpar)
         Me.Controls.Add(Me.btnSalvar)
         Me.Controls.Add(Me.txtEndereco)
         Me.Controls.Add(Me.txtNome)
@@ -101,4 +112,5 @@ Partial Class FormClienteAdicionar
     Friend WithEvents txtNome As TextBox
     Friend WithEvents txtEndereco As TextBox
     Friend WithEvents btnSalvar As Button
+    Friend WithEvents btnLimpar As Button
 End Class

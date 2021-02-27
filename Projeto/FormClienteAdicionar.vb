@@ -103,4 +103,16 @@ Public Class FormClienteAdicionar
     Private Sub FormClienteAdicionar_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         txtNome.Focus()
     End Sub
+
+    Private Sub btnLimpar_Click(sender As Object, e As EventArgs) Handles btnLimpar.Click
+
+        Dim ctrl As Control
+
+        For Each ctrl In Controls
+            If TypeName(ctrl) = "TextBox" Then
+                ctrl.Text = String.Empty
+            End If
+        Next
+
+    End Sub
 End Class

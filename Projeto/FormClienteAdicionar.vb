@@ -45,7 +45,7 @@ Public Class FormClienteAdicionar
         If Validacoes() Then
             SalvarCliente(Me.v)
 
-            Me.Close()
+            Close()
         End If
 
     End Sub
